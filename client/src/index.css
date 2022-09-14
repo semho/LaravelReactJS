@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --purple: rgb(168 85 247);
+  --purple-hover: rgb(192 132 252);
+  --rose: rgb(244 63 94);
+  --rose-hover: rgb(251 113 133);
+  --gray: rgb(107 114 128);
+  --gray-hover: rgb(156 163 175);
+  --gray-light: rgb(209 213 219);
+  --gray-hard: rgb(55 65 81);
+  --sky: rgb(14 165 233);
+  --sky-hover: rgb(56 189 248);
+}
+
+@layer base {
+  a {
+    @apply text-blue-900;
+  }
+}
